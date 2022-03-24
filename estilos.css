@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Readex+Pro:wght@700&family=Roboto+Serif:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@500&family=Readex+Pro:wght@700&family=Roboto+Serif:wght@500&display=swap');
+body {
+    margin: 0px;
+    background-color: #1c612e;
+}
+header, section, footer {    
+    background-color: #ffffff;    
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;       
+}
+
+header{    
+    height: auto;    
+}
+.cab {
+    width: 100%;      
+}
+#logo {
+    height: 100px;
+    width: 300px;
+    float: left;    
+}
+#logo p {
+    text-align: center;
+    font-family: 'Roboto Serif', serif;
+    font-size: 3.5em;
+    font-weight: bolder;
+    color: #f21616;
+    line-height: 0px;
+    margin-left: 10px;
+
+}
+#tituloLogo {
+    height: 100px;
+    width: 660px;
+    float: left;    
+}
+#tituloLogo p {
+    text-align: center;
+    line-height: 70px;
+    font-family: 'Raleway', sans-serif;    
+}
+#barraMenu {
+    height: 50px;    
+    clear: both;
+    font-weight: lighter;         
+}
+
+#barraMenu ul {
+    text-align: center;      
+    line-height: 50px;     
+}
+a {
+    text-decoration: none;
+    color: #000000;              
+}
+#barraMenu ul li {
+    text-align: center;
+    display: inline-block;
+    width: 145px;      
+}
+#barraMenu ul li:hover {
+    background-color: #f21616;
+    color: #ffffff;  
+    border-radius: 10px;  
+}
+
+section {   
+    height: auto;  
+    text-align: center;  
+    padding-top: 20px;  
+    padding-bottom: 20px; 
+}
+section p {
+    text-align: justify;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+hr {
+    color: #6a726a;    
+}
+h1, h2 {
+    color: #e89a62;
+    font-size: xx-large;
+}
+h3, h4 {
+    color: #1c612e;
+}
+h4 {
+    text-align: left;
+    margin-left: 15px;
+}
+#sec1 ul li {
+    display: inline-block;
+    margin: 20px;
+    width: 110px;
+    margin-top: 5px;    
+}
+#sec1 ul li:hover, #linkContacto:hover {
+    background-color: #e89a62;
+    border-radius: 10px;
+    color: #ffffff;
+}
+h3 img {
+    width: 45px;
+    margin-right: 10px;    
+}
+#linkContacto {
+    width: 140px;
+    margin: auto; 
+    font-weight: bolder;   
+}
+#cajaForm form {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cont_flex, #barraMenu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+}
+.borde {
+    border-width: thin;
+	border-color: #000000;
+	border-radius:10px;
+	height:30px;
+	width: 600px;
+    margin-top: 10px;
+}
+#txtArea {
+    height: 300px;
+}
+#cp {
+    width: 100px;
+    float: left;
+}
+#ciudad {
+    width: 400px;
+    float: left;
+    margin-left: 50px;
+}
+form ul {
+    list-style: none;
+    text-align: left;    
+}
+#submit, #reset {
+    margin: 10px;
+}
+
+.fotoProducto {
+    width: 300px; 
+    height: 250px;    
+    margin-bottom: 50px; 
+    margin-top: 30px;   
+}
+.fotoProducto img{
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;      
+}
+#fotoVinos {
+    height: auto;
+    padding-top: 40px;
+}
+
+.cont_flex h4 {
+    text-align: center;
+    width: 300px;    
+}
+.cont_flex img{  
+    height: 300px;
+}
+
+.carac_brisas img {
+    width: 90%;
+}
+
+#foto_natuvid {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 35px;
+    margin-top: 35px;    
+}
+#foto_natuvid img {
+    width: 100%;
+}
+
+#vinos_gozzo img {
+    padding: 20px;
+}
+
+
+.btn_volver a p {
+    text-align: center;
+    color: #1c612e;    
+    height: 50px;
+    line-height: 50px;  
+    border: 2px solid #1c612e;
+    border-radius: 10px; 
+    width: 200px;
+    margin: auto;
+}
+.lista_productos {
+    width: 300px;
+}
+
+.lista_productos img{
+    width: 80%;
+}
+#btn_vinos{
+    text-align: center;
+}
+
+.btn_volver a p:hover {
+    color: #ffffff;
+    border: 2px solid #f21616;
+    background-color: #f21616;
+}
+
+.lista_productos li {
+    display: inline;
+    text-decoration: none;
+    padding: 25px;    
+}
+#vinos_gozzo, #vinos_yeguas, #vinos_kosher, #vinos_riojana, #btn_vinos {
+    display: none;
+}
+
+
+footer {   
+    height: auto;
+    padding-top: 20px; 
+    background: -webkit-linear-gradient(#ffffff, #e89a62 90%);
+    background: -moz-linear-gradient(#ffffff, #e89a62 90%);  
+}
+footer div p {    
+    font-size: smaller;
+}
+#agradecidos li {
+    display: inline-block;  
+    margin-left: 5px; 
+    margin-right: 5px; 
+}
+#agradecidos li img {
+    height: 30px;
+}
+#copyright {
+    text-align: right;
+}
+    
