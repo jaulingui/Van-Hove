@@ -1,23 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Readex+Pro:wght@700&family=Roboto+Serif:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Raleway:wght@500&family=Readex+Pro:wght@700&family=Roboto+Serif:wght@500&display=swap');
-body {
-    margin: 0px;
+body {   
     background-color: #1c612e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
 }
 header, section, footer {    
     background-color: #ffffff;    
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;       
+    margin: auto;               
+}
+
+a {
+    text-decoration: none;
+    color: #000000;              
 }
 
 header{    
     height: auto;    
 }
-.cab {
+#banner {
     width: 100%;      
 }
+#banner img {
+    width: 100%;
+}
+
 #logo {
     height: 100px;
     width: 300px;
@@ -49,19 +59,27 @@ header{
     font-weight: lighter;         
 }
 
-#barraMenu ul {
-    text-align: center;      
-    line-height: 50px;     
+#barraMenu ul {    
+    padding: 0; 
+    list-style: none; 
+    width: 100%; 
+    text-align: center; 
 }
-a {
-    text-decoration: none;
-    color: #000000;              
-}
-#barraMenu ul li {
-    text-align: center;
+
+#barraMenu li {    
     display: inline-block;
-    width: 145px;      
+    width: 140px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+                
 }
+
+#barraMenu a {
+    text-decoration: none;
+    color: #000000; 
+    font-size: 18px;                    
+}
+
 #barraMenu ul li:hover {
     background-color: #f21616;
     color: #ffffff;  
@@ -112,7 +130,9 @@ h3 img {
 #linkContacto {
     width: 140px;
     margin: auto; 
-    font-weight: bolder;   
+    font-weight: bolder; 
+    padding: 10px;
+    text-align: center;
 }
 #cajaForm form {
     text-align: center;
@@ -193,10 +213,15 @@ form ul {
     width: 100%;
 }
 
+#logo_gozzo img, #logo_kosher img {
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 #vinos_gozzo img {
     padding: 20px;
 }
-
 
 .btn_volver a p {
     text-align: center;
@@ -209,14 +234,11 @@ form ul {
     margin: auto;
 }
 .lista_productos {
-    width: 300px;
+    display: inline;   
 }
 
 .lista_productos img{
     width: 80%;
-}
-#btn_vinos{
-    text-align: center;
 }
 
 .btn_volver a p:hover {
